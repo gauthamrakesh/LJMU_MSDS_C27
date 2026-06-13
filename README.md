@@ -14,10 +14,10 @@ The dataset contains information related to customer orders, products, shipment 
 ## Repository Structure
 
 ### Task 1 – Delivery Delay Classification
-Objective
+Objective:
 Predict whether an order will be delivered on time or late.
 
-Models
+Models:
  Logistic Regression
  Decision Tree
  Random Forest
@@ -26,7 +26,7 @@ Models
  CatBoost
  Support Vector Machine (SVM)
 
-Evaluation Metrics
+Evaluation Metrics:
  Accuracy
  Precision
  Recall
@@ -34,17 +34,17 @@ Evaluation Metrics
  ROC-AUC
  Cross-Validation Performance
 
-Explainability
+Explainability:
  SHAP
  LIME
 
 ---
 
 ### Task 2 – Delay Duration Prediction
-Objective
+Objective:
 Predict the expected delivery delay duration using regression models.
 
-Models
+Models:
  Linear Regression
  Decision Tree Regressor
  Random Forest Regressor
@@ -53,23 +53,28 @@ Models
  CatBoost Regressor
  Support Vector Regressor (SVR)
 
-Evaluation Metrics
+Evaluation Metrics:
  Mean Absolute Error (MAE)
  Root Mean Squared Error (RMSE)
  R² Score
  Cross-Validation Metrics
 
-Explainability
+Explainability:
  SHAP
  LIME
 
 ---
 
 ### Task 3 – Operational Risk Prediction
-Objective
+Objective:
 Predict whether an order will be Low,Moderate or High Risk
 
-Models
+Classes:
+ Low
+ Moderate
+ High
+ 
+Models:
  Logistic Regression
  Decision Tree
  Random Forest
@@ -78,7 +83,7 @@ Models
  CatBoost
  Support Vector Machine (SVM)
 
-Evaluation Metrics
+Evaluation Metrics:
  Accuracy
  Precision
  Recall
@@ -86,17 +91,22 @@ Evaluation Metrics
  ROC-AUC
  Cross-Validation Performance
 
-Explainability
+Explainability:
  SHAP
  LIME
 
 ---
 
 ### Task 4 – Order Processing Delay Prediction
-Objective
+Objective:
 Task predicts delay during the internal fulfilment stage before final delivery.
 
-Models
+Classes:
+ Fast
+ Normal
+ Delayed
+ 
+Models:
  Logistic Regression
  Decision Tree
  Random Forest
@@ -105,7 +115,7 @@ Models
  CatBoost
  Support Vector Machine (SVM)
 
-Evaluation Metrics
+Evaluation Metrics:
  Accuracy
  Macro Precision
  Macro Recall
@@ -114,22 +124,22 @@ Evaluation Metrics
  ROC-AUC
  Cross-Validation Performance
 
-Explainability
+Explainability:
  SHAP
  LIME
 ---
 
 ### Task 5 – Shipment Mode Prediction and Optimization
-Objective
+Objective:
 Predict the most suitable shipment mode for customer orders.
 
-Shipment Classes
+Shipment Classes:
  First Class
  Same Day
  Second Class
  Standard Class
 
-Models
+Models:
  Logistic Regression
  Decision Tree
  Random Forest
@@ -138,7 +148,7 @@ Models
  CatBoost
  Support Vector Machine (SVM)
 
-Evaluation Metrics
+Evaluation Metrics:
  Accuracy
  Macro Precision
  Macro Recall
@@ -148,7 +158,7 @@ Evaluation Metrics
  ROC-AUC
  Cross-Validation Performance
 
-Explainability
+Explainability:
  SHAP
  LIME
 ---
@@ -162,7 +172,7 @@ To improve transparency and support decision-making, the following explainabilit
 These methods provide both global and local explanations for model predictions and help identify the factors influencing logistics outcomes.
 ---
 
-## Tools and Libraries
+## Tools and Libraries:
  Python
  Pandas
  NumPy
