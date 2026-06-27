@@ -124,10 +124,6 @@ Evaluation Metrics:
  ROC-AUC
  Cross-Validation Performance
 
-Explainability:
- SHAP
- LIME
----
 
 ### Task 5 – Shipment Mode Prediction and Optimization
 Objective:
