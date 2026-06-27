@@ -1,4 +1,3 @@
-# LJMU_MSDS_C27
 ## EXPLAINABLE PREDICTION OF DELIVERY TIMELINESS, DELAY SEVERITY AND OPERATIONAL RISK IN E-COMMERCE LOGISTICS USING MACHINE LEARNING MODELS AND SHAP BASED INTERPRETABILITY
 
 This repository contains the implementation developed as part of the MSc Artificial Intelligence and Machine Learning dissertation at Liverpool John Moores University (LJMU).
